@@ -1,0 +1,81 @@
+/* ROOT BACKGROUND */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(
+        to bottom right,
+        #1e3c72,
+        #2a5298
+    );
+}
+
+/* CARD */
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 25, 0.25, 0, 8);
+}
+
+/* TITLE */
+.title {
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e3c72;
+}
+
+/* LABEL */
+.label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #444;
+    -fx-font-weight: 600;
+}
+
+/* INPUT FIELD */
+.text-field,
+.password-field,
+.combo-box {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cfd8dc;
+    -fx-padding: 8 12 8 12;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused,
+.password-field:focused,
+.combo-box:focused {
+    -fx-border-color: #ffb300;
+    -fx-border-width: 2;
+}
+
+/* RADIO & CHECKBOX */
+.radio-button,
+.check-box {
+    -fx-text-fill: #333;
+    -fx-font-size: 13px;
+}
+
+/* PRIMARY BUTTON */
+.btn-primary {
+    -fx-background-color: linear-gradient(
+        to right,
+        #ffb300,
+        #ff8f00
+    );
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 30;
+    -fx-padding: 10 34 10 34;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(
+        to right,
+        #ffc107,
+        #ffa000
+    );
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #ff8f00;
+}
